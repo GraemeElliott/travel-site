@@ -1119,8 +1119,8 @@ a {
             width: 20px;
             height: 3px;
             background-color: white;
-            -webkit-transition: all .5s ease-out;
-            transition: all .5s ease-out;
+            -webkit-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
             -webkit-transform-origin: 0 50%;
                     transform-origin: 0 50%;
         }
@@ -1266,4 +1266,15 @@ a {
             font-size: 1rem;
             background-color: transparent
     }
+    }
+
+.reveal-item {
+    opacity: 0;
+    -webkit-transition: opacity 1.5s ease-out;
+    transition: opacity 1.5s ease-out;
+}
+
+.reveal-item--is-visible {
+        opacity: 1;
+        
     }
