@@ -640,6 +640,13 @@ a {
 }
     }
 
+@media (min-width: 1200px) {
+
+.page-section {
+        padding: 0
+}
+    }
+
 .page-section--no-b-padding-until-medium {
         padding-bottom: 0;
     }
@@ -930,7 +937,7 @@ a {
             top: 8px;
             margin-right: .5rem;
             margin-left: 0;
-            margin-bottom: 0;
+            margin-bottom: .3rem;
             display: inline-block
     }
     }
